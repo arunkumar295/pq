@@ -68,7 +68,7 @@ document
         Host: "smtp.elasticemail.com",
         Username: "peaqlabs@gmail.com",
         Password: "650E17A3C1383639E46ADE0328B407D4071B",
-        To: "meenaarun295@gmail.com",
+        To: "prabhu@peaqlabs.com , info@peaqlabs.com",
         From: "peaqlabs@gmail.com",
         Subject: "New form submisssion detials",
         Body: `Firstname: ${firstName}<br>Lastname:${lastName}<br>Phone:${phone}<br>Email: ${email}<br>Message: ${message}`,
