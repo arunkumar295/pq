@@ -90,6 +90,7 @@
         <!-- .main-nav -->
       </div>
     </header>
+    
     <!-- #header -->
 
     <!--==========================
@@ -854,7 +855,7 @@
               </div>
             </div><div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div class="member">
-                <img src="img/team/david-smith.jpeg" class="img-fluid" alt="" />
+                <img src="img/team/block.jpeg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Nathan Block</h4>
@@ -992,7 +993,7 @@
                 </div>
               </div>
 
-              <div class="form">
+              <div class="form" id="contact-form">
                 <div id="sendmessage">
                   Your message has been sent. Thank you!
                 </div>
@@ -1126,6 +1127,10 @@
                   </button>
                 </form>
               </div>
+              <div class="alert alert-success d-none" role="alert" id="success">
+                <h5 class="text-success">Succesfully submitted</h5>
+                <p>Thanks for submitting . Our technical team will be reach you shortly!</p>
+              </div>
             </div>
           </div>
         </div>
@@ -1216,7 +1221,7 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="contactform/contactform.js"></script>
+    <script src="contactform/contactform.js" defer></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>

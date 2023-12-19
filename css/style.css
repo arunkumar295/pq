@@ -1451,3 +1451,6 @@ form .form-control:placeholder {
   color: gray;
   opacity: 0.5 !important;
 }
+.error {
+  border: 1px solid red !important;
+}

@@ -41,21 +41,21 @@ document
       emailElement.classList.remove("error");
     }
 
-    // Function to add or remove the "error" class based on the condition
-    // function toggleErrorClass(element, condition) {
-    //   if (condition) {
-    //     element.classList.add("error");
-    //   } else {
-    //     element.classList.remove("error");
-    //   }
-    // }
+    function toggleErrorClass(element, condition) {
+      if (condition) {
+        element.classList.add("error");
+      }
+      //   } else {
+      //     element.classList.remove("error");
+      //   }
+    }
 
-    // // Check each field and toggle the "error" class as needed
-    // toggleErrorClass(firstNameElement, firstName === "");
-    // toggleErrorClass(lastNameElement, lastName === "");
-    // toggleErrorClass(phoneElement, phone === "");
-    // toggleErrorClass(emailElement, email === "");
-    // toggleErrorClass(messageElement, message === "");
+    // Check each field and toggle the "error" class as needed
+    toggleErrorClass(firstNameElement, firstName === "");
+    toggleErrorClass(lastNameElement, lastName === "");
+    toggleErrorClass(phoneElement, phone === "");
+    toggleErrorClass(emailElement, email === "");
+    toggleErrorClass(messageElement, message === "");
 
     if (
       firstName != "" &&
@@ -175,6 +175,8 @@ document
       })
         .then((message) => {
           console.log("Admin mail sent:", message);
+          document.getElementById("contact-form").classList.add("d-none");
+          document.getElementById("success").classList.remove("d-none");
         })
         .catch((error) => {
           console.error("Error sending admin email:", error);
