@@ -68,7 +68,7 @@ document
         Host: "smtp.elasticemail.com",
         Username: "peaqlabs@gmail.com",
         Password: "650E17A3C1383639E46ADE0328B407D4071B",
-        To: "prabhu@peaqlabs.com , info@peaqlabs.com",
+        To: "prabhu@peaqlabs.com , support@peaqlabs.com",
         From: "peaqlabs@gmail.com",
         Subject: "New form submisssion detials",
         Body: `Firstname: ${firstName}<br>Lastname:${lastName}<br>Phone:${phone}<br>Email: ${email}<br>Message: ${message}`,
@@ -120,8 +120,8 @@ document
                                                               <tbody>
                                                                   <tr>
                                                                       <td style="padding-bottom: 20px;" align="center" valign="top" class="description">
-                                                                          <p class="text" style="color:#666;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:22px;text-transform:none;text-align:center;padding:0;margin:0">Why <a href="http://growisers.com/" style="text-decoration: auto;font-size: 16px;font-weight: 600;color: #175CFF;">Growisers</a>
-                                                                          Discover pure excellence with our premium coconut oil exports. We source the finest coconuts, extract the best oil, and deliver nature's goodness to your doorstep. Elevate your wellness and culinary experiences with our quality coconut oil.
+                                                                          <p class="text" style="color:#666;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:22px;text-transform:none;text-align:center;padding:0;margin:0">Thank you for considering <a href="http://peaqlabs.com/" style="text-decoration: auto;font-size: 16px;font-weight: 600;color: #175CFF;">PeaqLabs</a>We're excited to bring your vision to life with our expertise in cutting-edge software development. Let's innovate together for success!</p>
+                                                                          
                                                                       </td>
                                                                   </tr>
                                                               </tbody>
@@ -152,7 +152,7 @@ document
                                               <tbody>
                                                   <tr>
                                                       <td style="padding: 0px 10px 10px;" align="center" valign="top" class="footerEmailInfo">
-                                                          <p class="text" style="color:#bbb;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">If you have any questions please contact us <a href="mailto:meenaarun295@gmail.com" style="color:#bbb;text-decoration:underline" target="_blank">meenaarun295@gmail.com</a>
+                                                          <p class="text" style="color:#bbb;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;font-style:normal;letter-spacing:normal;line-height:20px;text-transform:none;text-align:center;padding:0;margin:0">If you have any questions please contact us <a href="mailto:support@peaqlabs.com" style="color:#bbb;text-decoration:underline" target="_blank">support@peaqlabs.com</a>
                                                               </p>
                                                       </td>
                                                   </tr>
